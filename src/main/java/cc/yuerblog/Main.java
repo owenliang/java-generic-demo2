@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     private static <T> void func1(T val) {
-        // 错误：java泛型和c++很不一样，运行时java完全不知道T是啥（类型擦除），所以这个代码根本不让编译
+        // 错误：java泛型和c++很不一样，运行时java完全不知道T是啥，所以这个代码根本不让编译
         // T copy = new T();
     }
 
